@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    background-color: azure;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 80px;
+    height: 60px;
+}
+
+.text-header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(48, 136, 163);
+}
+
+.data {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.data h3 {
+    color: rgb(48, 136, 163);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.data label {
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.data input {
+    font-size: 15px;
+    border: 1px solid rgb(84, 180, 204);
+    padding: 5px;
+}
+.data select {
+    font-size: 15px;
+    border: 1px solid rgb(84, 180, 204);
+    width: 514px;
+    height: 40px;
+}
+#name {
+    width: 800px;
+    height: 50px;
+}
+#jenis-kelamin {
+    width: 812px;
+    height: 64px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+#pasword {
+    width: 800px;
+    height: 50px;
+}
+
+#telepon {
+    width: 800px;
+    height: 50px;
+}
+#email {
+    width: 800px;
+    height: 50px;
+}
+#kota {
+    width: 800px;
+    height: 50px;
+}
+.submit {
+    text-align: center;
+    width: 1550px;
+    height: 2500px;
+    padding: 50px;
+}
+.submit button {
+    padding: 10px 20px; 
+    font-size: 1em; 
+    color: white; 
+    background-color: rgb(81, 146, 132); 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}   
+
+.submit button:hover {
+    background-color: rgb(192, 65, 56);
+}
